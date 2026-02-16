@@ -1,0 +1,40 @@
+# Data manipulation
+pandas==2.2.3        # Nov 2024 - Muchas mejoras de rendimiento
+numpy==2.2.4         # Feb 2025 - Más rápido y estable
+
+# Visualization
+matplotlib==3.10.1   # Feb 2025 - Mejor soporte para Python 3.12
+seaborn==0.13.2      # Ene 2025 - Mejoras en visualizaciones
+
+# Machine Learning
+scikit-learn==1.6.1  # Feb 2025 - Nuevos algoritmos y optimizaciones
+imbalanced-learn==0.13.0  # Compatible con scikit-learn 1.6+
+
+# Model serialization
+joblib==1.4.2        # Estable y rápido
+
+# API
+flask==3.1.0         # Feb 2025 - Más seguro y rápido
+fastapi==0.115.11    # Mar 2025 - Mejoras en rendimiento
+uvicorn[standard]==0.34.0  # Feb 2025 - Soporte HTTP/3 - Servidor ASGI con extras
+
+# ===== API DEPENDENCIES (NUEVAS/ACTUALIZADAS) =====
+pydantic==2.10.6     # Mar 2025 - Validación de datos
+pydantic-settings==2.7.1  # Mar 2025 - Para configuración (¡NECESARIO!)
+python-multipart==0.0.20  # Para procesar formularios
+httpx==0.28.1        # Cliente HTTP para pruebas
+
+
+# Experiment tracking
+mlflow==2.20.2       # Feb 2025 - Nuevas características
+
+# Utilities
+python-dotenv==1.0.1 # Estable
+
+# Optimización 
+imbalanced-learn>=0.11.0      # Para SMOTE-ENN
+scikit-optimize>=0.9.0        # Para Bayesian Optimization
+
+# ===== TESTING =====
+pytest==8.3.5        # Framework de pruebas
+pytest-cov==6.0.0    # Cobertura de código
