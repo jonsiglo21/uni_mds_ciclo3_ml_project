@@ -1,7 +1,7 @@
 # Proyecto MLOps: "Análisis y creación de modelo para detectar deserción de clientes"
 
 ## 📋 Descripción del Proyecto
-Proyecto final del curso "Introduction to MLOps" que implementa un modelo de Machine Learning para predecir la deserción de clientes jurídicos de una entidad financiera peruana.
+Proyecto final del curso "Introduction to MLOps" que implementa un modelo de Machine Learning para predecir la deserción de clientes de una entidad financiera peruana.
 
 ## 🎯 Objetivo
 Desarrollar un modelo de clasificación para predecir la probabilidad de deserción de clientes, permitiendo implementar estrategias de retención proactivas.
