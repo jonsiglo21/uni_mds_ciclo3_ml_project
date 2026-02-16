@@ -1,5 +1,3 @@
-# uni_mds_ciclo3_ml_project
-
 # Proyecto MLOps: Análisis y creación de modelo para detectar deserción de clientes
 
 ## 📋 Descripción del Proyecto
