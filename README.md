@@ -17,12 +17,24 @@ Desarrollar un modelo de clasificación para predecir la probabilidad de deserci
 - FastAPI 0.115.11
 - MLflow 2.20.2
 
+## Pasos a seguir 
+
+1. Descarga en carpeta local
+2. Crea tu entorno
+3. Habilita las herramientas necesarias
+4. Ejecuta los siguientes comandos:
+    - python data_preparation.py (para preparar la data)
+    - python train.py            (para entrenar con modelo 1)
+    - python train_optimized.py  (para entrenar con modelo 2)         
+    - python -m api.serving      (para usar el modelo por api con postman) 
+    - mlflow ui --backend-store-uri experiments/mlruns (para ver la información del modelo)
+
 ## 📁 Estructura del Proyecto
 uni_mds_ciclo3_ml_project/
 ├── .github/                     # Configuración de GitHub (opcional)
 ├── data/
 │   ├── raw/                     # Datos originales CSV
-│   └── processed/               # Datos procesados para entrenamiento
+│   └── processed/training       # Datos procesados para entrenamiento
 ├── notebooks/                   # Jupyter notebooks para experimentación
 ├── src/
 │   ├── __init__.py
@@ -33,6 +45,6 @@ uni_mds_ciclo3_ml_project/
 ├── reports/                     # Reportes, gráficas, resultados
 │   ├── figures/
 │   └── metrics/
-├── experiments/                 # Experimentos con MLflow (opcional)
+├── experiments/mlruns           # Experimentos con MLflow (opcional)
 ├── requirements.txt             # Dependencias del proyecto
 └── README.md                    # Documentación principal
